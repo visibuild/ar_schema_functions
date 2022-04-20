@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
   spec.files = Dir['lib/**/*'] + %w[Gemfile ar_schema_functions.gemspec]
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activerecord', '>= 4.0.0', '< 7.0.0'
+  spec.add_dependency 'activerecord', '>= 4.0.0', '< 8.0.0'
 end
